@@ -92,7 +92,7 @@ int main(int argc, char *argv[]){
     glutInitDisplayMode(GLUT_RGB | GLUT_SINGLE);
     glutInitWindowPosition(200, 50);
     glutInitWindowSize(800, 800);
-    glutCreateWindow("ÏàËÆ¶ÈÍ¼ÐÎ");
+    glutCreateWindow("灰度图");
     glutDisplayFunc(&myDisplay); 
     glutReshapeFunc(changeSize);
     glutMainLoop();
